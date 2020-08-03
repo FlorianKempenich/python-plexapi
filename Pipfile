@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coveralls = "*"
+flake8 = "*"
+pytest = "*"
+pytest-cache = "*"
+pytest-cov = "*"
+pytest-mock = "<=1.11.1"
+recommonmark = "*"
+requests = "*"
+requests-mock = "*"
+sphinxcontrib-napoleon = "*"
+tqdm = "*"
+mock = "*"
+sphinx-rtd-theme = {ref = "feb0beb44a444f875f3369a945e6055965ee993f", git = "https://github.com/readthedocs/sphinx_rtd_theme.git", editable = true}
+Pillow = "*"
+Sphinx = "*"
+websocket_client = "*"
+
+[packages]
+requests = "*"
+
+[requires]
+python_version = "3.8"
